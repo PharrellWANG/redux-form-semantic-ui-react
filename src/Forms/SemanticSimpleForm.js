@@ -1,16 +1,6 @@
 import React, { Component } from 'react'
-
-import {
-  Form,
-  Grid,
-  Button
-} from 'semantic-ui-react'
-
-import {
-  Field,
-  reduxForm
-} from 'redux-form'
-
+import { Form, Grid, Button } from 'semantic-ui-react'
+import { Field, reduxForm } from 'redux-form'
 import classnames from 'classnames'
 
 class SemanticSimpleForm extends Component {
