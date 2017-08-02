@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import ContactPage from './ContactPage'
+import ContactPage from './Pages/ContactPage'
 import SimpleForm from './Forms/SimpleForm'
 import SemanticSimpleForm from './Forms/SemanticSimpleForm'
 import { Segment, Divider } from 'semantic-ui-react'
