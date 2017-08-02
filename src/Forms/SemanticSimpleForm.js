@@ -15,13 +15,6 @@ import classnames from 'classnames'
 
 class SemanticSimpleForm extends Component {
 
-  // componentWillReceiveProps(nextProps) {
-  //     const {contact} = nextProps;
-  //     if (contact._id !== this.props.contact._id) {
-  //         this.props.initialize(contact);
-  //     }
-  // }
-
   static renderField ({input, label, type, meta: {touched, error}}) {
     return (
       <Form.Field className={classnames({err: touched && error})}>
